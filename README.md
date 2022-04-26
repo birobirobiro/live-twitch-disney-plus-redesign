@@ -41,7 +41,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Landing Page desenvolvida durante a live:
 
-Live Preview:
+Live Preview: https://live-twitch-disney-plus-redesign.vercel.app/
 
 ## 🎨 Inspiração:
 
