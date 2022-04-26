@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: url(/images/background.jpg) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  font-size: 1.6rem;
+  overflow: hidden;
+}
+
+.container {
+  margin: 4rem 12.6rem 17rem 7.6rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo img {
+  width: 13rem;
+  height: 7.4rem;
+}
+
+header .menu img {
+  width: 4.6rem;
+  height: 2.7rem;
+}
+
+main {
+  margin-top: 5.7rem;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+}
+
+section .info {
+  margin-top: 14.1rem;
+}
+
+.imdb {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+.imdb span {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.release-date {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.title {
+  padding: 5rem 0 3rem 0;
+}
+
+.summary {
+  max-width: 40rem;
+  padding-bottom: 4rem;
+}
+
+.summary p {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 25rem;
+  height: 7rem;
+
+  border: none;
+  border-radius: 5rem;
+  background: linear-gradient(154.23deg, #0f3a7b -58.45%, #0cffff 374.49%);
+  box-shadow: 0px 3px 50px rgba(0, 0, 0, 0.160784);
+
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #fff;
+
+  gap: 3rem;
+}
+
+section .movies {
+  display: flex;
+  flex-direction: column;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  overflow-y: scroll;
+  height: 70rem;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.movies::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.movies::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+.movies::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+.movies::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+.movies::-webkit-scrollbar-track {
+  background: #bfbfbf;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+.movies::-webkit-scrollbar-track:hover {
+  background: #bfbfbf;
+}
+.movies::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+.movies::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+section h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 3.4rem;
+  padding-bottom: 3rem;
+}
+
+.movies-players {
+  display: flex;
+  flex-direction: column;
+
+  background-repeat: no-repeat;
+  width: 26.5rem;
+  height: 14.9rem;
+  border-radius: 0.8rem;
+  position: relative;
+  margin-right: 4rem;
+
+  min-height: 15rem;
+}
+
+.thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail img {
+  content: "";
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  top: 5.7rem;
+  left: 11.5rem;
+}
+
+.text-movie-player {
+  position: absolute;
+  z-index: 3;
+  font-size: 20px;
+  left: 0;
+  bottom: 0;
+  padding: 0 0 1.6rem 0.6rem;
+}
+
+.text-movie-player h3:nth-child(1) {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.7rem;
+}
+
+.text-movie-player h3:nth-child(2) {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2rem;
+}
+
+#thumb-1 {
+  background: url(/images/video-thumbnail-1.jpg);
+}
+
+#thumb-2 {
+  background: url(/images/video-thumbnail-2.jpg);
+}
+
+#thumb-3 {
+  background: url(/images/video-thumbnail-3.jpg);
+}
+
+#thumb-4 {
+  background: url(/images/video-thumbnail-4.jpg);
+}
