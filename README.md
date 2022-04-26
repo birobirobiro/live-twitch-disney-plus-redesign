@@ -13,11 +13,11 @@
 </p>
 
 <p align="center">
- <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=FF4820&labelColor=052D56" alt="License">
+ <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=3793E8&labelColor=06187B" alt="License">
   
-  <img src="https://img.shields.io/github/forks/birobirobiro/live-twitch-lp-gpt3?label=forks&message=MIT&color=FF4820&labelColor=052D56" alt="Forks">
+  <img src="https://img.shields.io/github/forks/birobirobiro/live-twitch-lp-gpt3?label=forks&message=MIT&color=3793E8&labelColor=06187B" alt="Forks">
 
-  <img src="https://img.shields.io/github/stars/birobirobiro/live-twitch-lp-gpt3?label=stars&message=MIT&color=FF4820&labelColor=052D56 " alt="Stars">
+  <img src="https://img.shields.io/github/stars/birobirobiro/live-twitch-lp-gpt3?label=stars&message=MIT&color=3793E8&labelColor=06187B " alt="Stars">
 </p>
 
 <p align="center">
@@ -38,8 +38,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 
 ## 🚧 Projeto
-
-Landing Page desenvolvida durante a live:
 
 Live Preview: https://live-twitch-disney-plus-redesign.vercel.app/
 
