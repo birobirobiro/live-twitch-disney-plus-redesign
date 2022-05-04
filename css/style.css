@@ -168,6 +168,8 @@ section h2 {
   margin-right: 4rem;
 
   min-height: 15rem;
+
+  cursor: pointer;
 }
 
 .thumbnail {
